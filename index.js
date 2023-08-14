@@ -8,7 +8,7 @@ const port = 3005;
 app.use(bodyParser.json());
 app.use(cors());
 
-const RECAPTCHA_SECRET_KEY = '6Lf0Z6YnAAAAAAXCWJTQ5jaQhD8AZZwcmCtkvsDt'; // Replace with your reCAPTCHA secret key
+const RECAPTCHA_SECRET_KEY = '6LfDsqYnAAAAAMxr6c0OKKQ3ABvXoAQaHkuQvijM'; // Replace with your reCAPTCHA secret key
 
 app.post('/api/postData', async (req, res) => {
   const data = req.body;
