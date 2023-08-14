@@ -34,11 +34,8 @@ app.post('/api/postData', async (req, res) => {
     res.status(500).json({ error: 'An error occurred' });
   }
 });
-app.get('/api/get',async(req,res)=>{
-
+app.get('/api/getData',async(req,res)=>{
   console.log("test")
-
-  
 })
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
